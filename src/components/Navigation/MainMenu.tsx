@@ -30,6 +30,10 @@ const items = [
     name: "Patterns",
     href: "/patterns",
   },
+  {
+    name: "F2L",
+    href: "/f2l",
+  },
 ];
 
 export const MainMenu: React.FC<Props> = ({ onClose }) => {

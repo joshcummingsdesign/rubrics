@@ -12,6 +12,9 @@ export default function Home() {
         <li>
           <Link href="/patterns">Patterns</Link>
         </li>
+        <li>
+          <Link href="/f2l">F2L (First Two Layers)</Link>
+        </li>
       </ul>
     </>
   );
