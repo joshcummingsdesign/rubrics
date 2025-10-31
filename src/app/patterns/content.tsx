@@ -58,6 +58,7 @@ export default function Patterns() {
   return (
     <>
       <h1>Patterns</h1>
+      <p>Common Rubik's Cube moves and patterns.</p>
       <Table>
         <TableHead>
           <TableRow>

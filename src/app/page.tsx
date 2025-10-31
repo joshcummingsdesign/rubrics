@@ -3,8 +3,9 @@ import Link from "next/link";
 const pages = [
   { name: "CFOP", href: "/cfop" },
   { name: "Patterns", href: "/patterns" },
-  { name: "F2L (First Two Layers)", href: "/f2l" },
-  { name: "OLL (Orientation of Last Layer)", href: "/oll" },
+  { name: "F2L", href: "/f2l" },
+  { name: "OLL (2-Look)", href: "/oll" },
+  { name: "PLL (2-Look)", href: "/pll" },
 ];
 
 export default function Home() {

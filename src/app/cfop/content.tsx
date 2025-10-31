@@ -62,6 +62,10 @@ export default function CFOP() {
   return (
     <>
       <h1>CFOP</h1>
+      <p>
+        CFOP (Cross, F2L, OLL, PLL) is a method for solving the Rubik's Cube in
+        four steps.
+      </p>
       <Table>
         <TableHead>
           <TableRow>

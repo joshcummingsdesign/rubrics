@@ -97,6 +97,7 @@ export default function Patterns() {
   return (
     <>
       <h1>F2L</h1>
+      <p>Useful cases for solving F2L (First Two Layers).</p>
       <h2>Top Layer</h2>
       <TableComponent rows={topRows} handleClick={handleClick} />
       <h2>Bottom Layer</h2>

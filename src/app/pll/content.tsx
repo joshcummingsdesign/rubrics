@@ -24,77 +24,57 @@ interface Row {
 
 const firstRows: Row[] = [
   {
-    name: "Line",
-    algorithm: ["F (Sexy Move) F'"],
-    algNotes: [],
-    image: "/images/oll-line.png",
-    video: "/videos/oll-line.mp4",
+    name: "Y Perm",
+    algorithm: ["F (R U' R') U' (R U R') F' (R U R' U' R' F R F')"],
+    algNotes: [
+      "F (Insert pair) U' (Take out pair) F' (Sledgehammer)",
+      "Trigger: No headlights",
+      "Mnemonic: Y are we starting with F?",
+    ],
+    image: "/images/pll-y-perm.png",
+    video: "https://www.youtube.com/embed/72-JJuRcZ1Y?si=wf0FzJFoq5HClGwD",
   },
   {
-    name: "R",
-    algorithm: ["f (Sexy Move) f'"],
-    algNotes: [],
-    image: "/images/oll-r.png",
-    video: "/videos/oll-r.mp4",
-  },
-  {
-    name: "Dot",
-    algorithm: ["F (Sexy Move) F'", "f (Sexy Move) f'"],
-    algNotes: [],
-    image: "/images/oll-dot.png",
-    video: "/videos/oll-dot.mp4",
+    name: "T Perm",
+    algorithm: ["(R U R' U' R' F) R2 (U' R') U' (R U R') F'"],
+    algNotes: [
+      "(Sledgehammer) R2 (Insert pair) U' (Take out pair) F",
+      "Trigger: Headlights",
+      "Mnemonic: T looks like a sledgehammer",
+    ],
+    image: "/images/pll-t-perm.png",
+    video: "https://www.youtube.com/embed/989kUSCYWgk?si=WIRe6uY3n5ECipJo",
   },
 ];
 
 const secondRows: Row[] = [
   {
-    name: "Sune",
-    algorithm: ["(R U R') U (R U2 R')"],
-    algNotes: ["(Take out pair) U (Insert with U2)"],
-    image: "/images/oll-sune.png",
-    video: "/videos/oll-sune.mp4",
+    name: "Ua Perm",
+    algorithm: ["M2 U M U2 M' U M2"],
+    algNotes: ["Trigger: One solved side, Opposite edges"],
+    image: "/images/pll-ua-perm.png",
+    video: "https://www.youtube.com/embed/jx-7rfgljvY?si=mLW_amM-g-rXiSRm",
   },
   {
-    name: "Anti-Sune",
-    algorithm: ["(R U2 R') U' (R U' R')"],
-    algNotes: ["(Take out pair with U2) U' (Insert)"],
-    image: "/images/oll-anti-sune.png",
-    video: "/videos/oll-anti-sune.mp4",
+    name: "Ub Perm",
+    algorithm: ["M2 U' M U2 M' U' M2"],
+    algNotes: ["Trigger: One solved side, Adjacent edges"],
+    image: "/images/pll-ub-perm.png",
+    video: "https://www.youtube.com/embed/jx-7rfgljvY?si=mLW_amM-g-rXiSRm",
   },
   {
-    name: "H",
-    algorithm: ["(R U2 R') U' (R U R' U') (R U' R')"],
-    algNotes: ["(Take out pair with U2) U' (Sexy Move) (Insert)"],
-    image: "/images/oll-h.png",
-    video: "/videos/oll-h.mp4",
+    name: "H Perm",
+    algorithm: ["M2 U' M2 U2 M2 U' M2"],
+    algNotes: ["Trigger: No solved sides, Opposite edges"],
+    image: "/images/pll-h-perm.png",
+    video: "https://www.youtube.com/embed/KW_naqN3LG8?si=5MosPtfzl6YUfnJT",
   },
   {
-    name: "Pi",
-    algorithm: ["(L' U2) (L2 U) (L2' U L2 U2 L')"],
-    algNotes: ["(Take out pair with U2) (Take out back pair) (Reinsert pairs)"],
-    image: "/images/oll-pi.png",
-    video: "/videos/oll-pi.mp4",
-  },
-  {
-    name: "U",
-    algorithm: ["(R2 D) (R' U2) (R D') (R' U2 R')"],
-    algNotes: ["(Setup move) (Take out back pair) (Undo setup move) (Insert)"],
-    image: "/images/oll-u.png",
-    video: "/videos/oll-u.mp4",
-  },
-  {
-    name: "Hammerhead",
-    algorithm: ["(r U R' U') (r' F R F')"],
-    algNotes: ["(Fat Sexy Move) (Fat Sledgehammer)"],
-    image: "/images/oll-hammerhead.png",
-    video: "/videos/oll-hammerhead.mp4",
-  },
-  {
-    name: "Bowtie",
-    algorithm: ["F' (r U R' U') (r' F R)"],
-    algNotes: ["F' (Fat Sexy Move) (Fat Sledgehammer)"],
-    image: "/images/oll-bowtie.png",
-    video: "/videos/oll-bowtie.mp4",
+    name: "Z Perm",
+    algorithm: ["(M2 U') (M2 U') M' U2 M2 U2 M'"],
+    algNotes: ["Trigger: No solved sides, Adjacent edges"],
+    image: "/images/pll-z-perm.png",
+    video: "https://www.youtube.com/embed/CJeICPGe6Ew?si=drBUv2JZBfJ4nVdj",
   },
 ];
 
@@ -115,13 +95,13 @@ export default function Patterns() {
 
   return (
     <>
-      <h1>OLL (2-Look)</h1>
-      <p>Orientation of the Last Layer in two steps.</p>
+      <h1>PLL (2-Look)</h1>
+      <p>Permutation of the Last Layer in two steps.</p>
       <h2>First Look</h2>
-      <p>The first look orients the yellow cross.</p>
+      <p>The first look permutes the corners.</p>
       <TableComponent rows={firstRows} handleClick={handleClick} />
       <h2>Second Look</h2>
-      <p>The second look orients the last layer.</p>
+      <p>The second look permutes the edges.</p>
       <TableComponent rows={secondRows} handleClick={handleClick} />
       <Modal open={open} onClose={handleClose}>
         <ModalContent>
@@ -129,7 +109,17 @@ export default function Patterns() {
             <Close />
           </CloseButton>
           {currentVideo && (
-            <video src={currentVideo} controls playsInline autoPlay />
+            <VideoContainer>
+              <iframe
+                width="560"
+                height="315"
+                src={`${currentVideo}?rel=0`}
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </VideoContainer>
           )}
         </ModalContent>
       </Modal>
@@ -218,15 +208,15 @@ const Algorithm = ({ algorithm }: { algorithm: string[] }) => {
 
 const Table = styled(TableBase)({
   "td, th": {
-    width: "26.67%",
+    width: "25%",
     textAlign: "left",
 
     "&:nth-child(2)": {
-      width: "40%",
+      width: "53%",
     },
 
     "&:nth-child(3)": {
-      width: "33.33%",
+      width: "22%",
     },
   },
 });
@@ -252,4 +242,20 @@ const CloseButton = styled(IconButton)(({ theme }) => ({
 
 const Tooltip = styled(TooltipBase)({
   cursor: "help",
+});
+
+const VideoContainer = styled("div")({
+  position: "relative",
+  width: "100%",
+  paddingBottom: "56.25%",
+  height: 0,
+
+  iframe: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%",
+    border: 0,
+  },
 });
