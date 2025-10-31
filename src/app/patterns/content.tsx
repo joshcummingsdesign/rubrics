@@ -27,7 +27,7 @@ const rows = [
     video: "/videos/reverse-sexy.mp4",
   },
   {
-    name: "Anti Sexy",
+    name: "Anti-Sexy",
     notation: "R U' R' U",
     image: "/images/anti-sexy.png",
     video: "/videos/anti-sexy.mp4",

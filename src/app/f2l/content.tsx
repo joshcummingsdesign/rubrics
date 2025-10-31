@@ -52,7 +52,7 @@ const topRows = [
   },
   {
     name: "Mismatch Pair",
-    solution: "Anti Sexy x2",
+    solution: "Anti-Sexy x2",
     image: "/images/f2l-mismatch-pair.png",
     video: "/videos/f2l-mismatch-pair.mp4",
   },

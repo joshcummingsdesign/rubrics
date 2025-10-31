@@ -34,6 +34,10 @@ const items = [
     name: "F2L",
     href: "/f2l",
   },
+  {
+    name: "OLL (2-Look)",
+    href: "/oll",
+  },
 ];
 
 export const MainMenu: React.FC<Props> = ({ onClose }) => {
