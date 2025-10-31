@@ -30,6 +30,12 @@ const rows: Row[] = [
     year: "2020",
     link: "https://www.thecubicle.com/products/moyu-rs3-m-2020-3x3-uv-coated",
   },
+  {
+    brand: "QiYi",
+    name: "Valk 3",
+    year: "2018",
+    link: "https://www.thecubicle.com/products/valk-3",
+  },
 ];
 
 export default function Cubes() {
