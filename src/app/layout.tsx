@@ -18,7 +18,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Rubrics",
-  description: "A useful guide for Rubik's Cube speedsolving.",
+  description: "A practical guide to Rubik's Cube speedsolving.",
 };
 
 export const viewport: Viewport = {

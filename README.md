@@ -1,3 +1,3 @@
 # Rubrics
 
-A useful guide for Rubik's Cube speedsolving.
+A practical guide to Rubik's Cube speedsolving.
