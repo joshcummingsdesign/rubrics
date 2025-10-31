@@ -92,7 +92,14 @@ export default function Patterns() {
             <Close />
           </CloseButton>
           {currentVideo && (
-            <video src={currentVideo} controls playsInline autoPlay />
+            <video
+              src={currentVideo}
+              width={600}
+              height={450}
+              controls
+              playsInline
+              autoPlay
+            />
           )}
         </ModalContent>
       </Modal>
