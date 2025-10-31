@@ -22,7 +22,7 @@ export default function Competitions() {
   return (
     <>
       <h1>Competitions</h1>
-      <p>Competitions I've participated in.</p>
+      <p>Competitions I&apos;ve participated in.</p>
       <Table>
         <TableHead>
           <TableRow>

@@ -18,12 +18,13 @@ export default function Home() {
     <>
       <h1>Rubrics</h1>
       <p>
-        Hi, 👋 I'm Josh. Welcome to Rubrics, a practical guide to Rubik's Cube
-        speedsolving. I'm a software engineer and Rubik&apos;s Cube nerd 🤓. As
-        a beginner, I found that there was so much information out there that it
-        was hard to sort through it all, figure out what really worked for me,
-        and actually retain and apply it. So I decided to create this guide. I
-        hope you find it helpful. Happy cubing! 🎉
+        Hi, 👋 I&apos;m Josh. Welcome to Rubrics, a practical guide to
+        Rubik&apos;s Cube speedsolving. I&apos;m a software engineer and
+        Rubik&apos;s Cube nerd 🤓. As a beginner, I found that there was so much
+        information out there that it was hard to sort through it all, figure
+        out what really worked for me, and actually retain and apply it. So I
+        decided to create this guide. I hope you find it helpful. Happy cubing!
+        🎉
       </p>
       <h2>Get Started</h2>
       <ul>
