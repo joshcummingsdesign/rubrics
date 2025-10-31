@@ -49,28 +49,28 @@ const secondRows: Row[] = [
   {
     name: "Ua Perm",
     algorithm: ["M2 U M U2 M' U M2"],
-    notes: ["Trigger: One solved side, Opposite edges"],
+    notes: ["Trigger: Solved side in back, Right edge goes opposite"],
     image: "/images/pll-ua-perm.svg",
     video: "https://www.youtube.com/embed/jx-7rfgljvY?si=mLW_amM-g-rXiSRm",
   },
   {
     name: "Ub Perm",
     algorithm: ["M2 U' M U2 M' U' M2"],
-    notes: ["Trigger: One solved side, Adjacent edges"],
+    notes: ["Trigger: Solved side in back, Right edge goes adjacent"],
     image: "/images/pll-ub-perm.svg",
     video: "https://www.youtube.com/embed/jx-7rfgljvY?si=mLW_amM-g-rXiSRm",
   },
   {
     name: "H Perm",
     algorithm: ["M2 U' M2 U2 M2 U' M2"],
-    notes: ["Trigger: No solved sides, Opposite edges"],
+    notes: ["Trigger: No solved sides, Edges go opposite"],
     image: "/images/pll-h-perm.svg",
     video: "https://www.youtube.com/embed/KW_naqN3LG8?si=5MosPtfzl6YUfnJT",
   },
   {
     name: "Z Perm",
     algorithm: ["(M2 U') (M2 U') M' U2 M2 U2 M'"],
-    notes: ["Trigger: No solved sides, Adjacent edges"],
+    notes: ["Trigger: No solved sides, Edges go adjacent"],
     image: "/images/pll-z-perm.svg",
     video: "https://www.youtube.com/embed/CJeICPGe6Ew?si=drBUv2JZBfJ4nVdj",
   },
@@ -96,7 +96,7 @@ export default function Content() {
       <h1>PLL (2-Look)</h1>
       <p>
         Solving the permutation of the last layer (PLL) on a Rubik&apos;s Cube
-        in two "looks" or steps.
+        in two &ldquo;looks&rdquo; or steps.
       </p>
       <h2>First Look</h2>
       <p>The first look permutes the corners.</p>

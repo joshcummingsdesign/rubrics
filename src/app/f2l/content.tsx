@@ -126,7 +126,7 @@ const TableComponent = ({
       <TableRow>
         <TableCell>Name</TableCell>
         <TableCell>Solution</TableCell>
-        <TableCell>Video</TableCell>
+        <TableCell align="center">Video</TableCell>
       </TableRow>
     </TableHead>
     <TableBody>
@@ -134,9 +134,9 @@ const TableComponent = ({
         <TableRow key={row.name}>
           <TableCell>{row.name}</TableCell>
           <TableCell>{row.solution}</TableCell>
-          <TableCell>
+          <TableCell align="center">
             <a href={row.video} onClick={handleClick}>
-              <Image src={row.image} width={168} height={126} alt={row.name} />
+              <Image src={row.image} width={213} height={160} alt={row.name} />
             </a>
           </TableCell>
         </TableRow>
@@ -147,14 +147,14 @@ const TableComponent = ({
 
 const Table = styled(TableBase)({
   "td, th": {
-    width: "26.67%",
+    width: "25%",
 
     "&:nth-child(2)": {
       width: "40%",
     },
 
     "&:nth-child(3)": {
-      width: "33.33%",
+      width: "35%",
     },
   },
 });

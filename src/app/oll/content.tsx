@@ -116,7 +116,7 @@ export default function Content() {
       <h1>OLL (2-Look)</h1>
       <p>
         Solving the orientation of the last layer (OLL) on a Rubik&apos;s Cube
-        in two "looks" or steps.
+        in two &ldquo;looks&rdquo; or steps.
       </p>
       <h2>First Look</h2>
       <p>The first look orients the yellow cross.</p>
@@ -141,7 +141,7 @@ const TableComponent = ({
       <TableRow>
         <TableCell>Name</TableCell>
         <TableCell>Algorithm</TableCell>
-        <TableCell>Video</TableCell>
+        <TableCell align="center">Video</TableCell>
       </TableRow>
     </TableHead>
     <TableBody>
@@ -151,9 +151,9 @@ const TableComponent = ({
           <TableCell>
             <Algorithm algorithm={row.algorithm} notes={row.notes} />
           </TableCell>
-          <TableCell>
+          <TableCell align="center">
             <a href={row.video} onClick={handleClick}>
-              <Image src={row.image} width={168} height={126} alt={row.name} />
+              <Image src={row.image} width={213} height={160} alt={row.name} />
             </a>
           </TableCell>
         </TableRow>
@@ -164,14 +164,14 @@ const TableComponent = ({
 
 const Table = styled(TableBase)({
   "td, th": {
-    width: "26.67%",
+    width: "25%",
 
     "&:nth-child(2)": {
       width: "40%",
     },
 
     "&:nth-child(3)": {
-      width: "33.33%",
+      width: "35%",
     },
   },
 });

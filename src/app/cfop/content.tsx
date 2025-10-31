@@ -22,7 +22,7 @@ const rows: Row[] = [
   {
     name: "Cross",
     description:
-      "Solve the white cross on the bottom of the cube, while keeping track of your first F2L pair.",
+      "Solve the white cross on the bottom of the cube while keeping track of your first F2L pair.",
     image: "/images/cross.png",
     ytLink: "https://www.youtube.com/embed/IWXpkfwimo0?si=i9jxLLpy253YK2gE",
   },
@@ -76,7 +76,7 @@ export default function Content() {
           <TableRow>
             <TableCell>Name</TableCell>
             <TableCell>Description</TableCell>
-            <TableCell>Video</TableCell>
+            <TableCell align="center">Video</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -84,12 +84,12 @@ export default function Content() {
             <TableRow key={row.name}>
               <TableCell>{row.name}</TableCell>
               <TableCell>{row.description}</TableCell>
-              <TableCell>
+              <TableCell align="center">
                 <a href={row.ytLink} onClick={handleClick}>
                   <Image
                     src={row.image}
-                    width={201}
-                    height={151}
+                    width={213}
+                    height={160}
                     alt={row.name}
                   />
                 </a>
@@ -105,14 +105,14 @@ export default function Content() {
 
 const Table = styled(TableBase)({
   "td, th": {
-    width: "26.67%",
+    width: "25%",
 
     "&:nth-child(2)": {
       width: "40%",
     },
 
     "&:nth-child(3)": {
-      width: "33.33%",
+      width: "35%",
     },
   },
 });
