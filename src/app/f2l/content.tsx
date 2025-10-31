@@ -79,7 +79,7 @@ const bottomRows = [
   },
 ];
 
-export default function Patterns() {
+export default function F2L() {
   const [open, setOpen] = useState(false);
   const [currentVideo, setCurrentVideo] = useState<string | null>(null);
 
@@ -150,7 +150,6 @@ const TableComponent = ({
 const Table = styled(TableBase)({
   "td, th": {
     width: "26.67%",
-    textAlign: "left",
 
     "&:nth-child(2)": {
       width: "40%",

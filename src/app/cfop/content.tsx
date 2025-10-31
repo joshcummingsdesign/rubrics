@@ -120,7 +120,6 @@ export default function CFOP() {
 const Table = styled(TableBase)({
   "td, th": {
     width: "26.67%",
-    textAlign: "left",
 
     "&:nth-child(2)": {
       width: "40%",

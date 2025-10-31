@@ -42,6 +42,14 @@ const items = [
     name: "PLL (2-Look)",
     href: "/pll",
   },
+  {
+    name: "Cubes",
+    href: "/cubes",
+  },
+  {
+    name: "Competitions",
+    href: "/competitions",
+  },
 ];
 
 export const MainMenu: React.FC<Props> = ({ onClose }) => {

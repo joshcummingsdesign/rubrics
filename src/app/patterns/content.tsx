@@ -103,7 +103,6 @@ export default function Patterns() {
 const Table = styled(TableBase)({
   "td, th": {
     width: "33.33%",
-    textAlign: "left",
   },
 });
 

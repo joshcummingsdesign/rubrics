@@ -6,6 +6,6 @@ export const metadata: Metadata = {
   description: "2-Look OLL algorithms.",
 };
 
-export default function Patterns() {
+export default function OLL() {
   return <Content />;
 }

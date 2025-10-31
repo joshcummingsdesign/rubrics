@@ -7,6 +7,6 @@ export const metadata: Metadata = {
     "The CFOP method (Cross, F2L, OLL, PLL) for solving the Rubik's Cube.",
 };
 
-export default function Patterns() {
+export default function CFOP() {
   return <Content />;
 }

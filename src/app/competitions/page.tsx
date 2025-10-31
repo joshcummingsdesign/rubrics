@@ -2,10 +2,10 @@ import { Metadata } from "next";
 import Content from "./content";
 
 export const metadata: Metadata = {
-  title: "F2L — Rubrics",
-  description: "F2L patterns and solutions.",
+  title: "Competitions — Rubrics",
+  description: "Competitions I've participated in.",
 };
 
-export default function F2L() {
+export default function Competitions() {
   return <Content />;
 }

@@ -98,7 +98,7 @@ const secondRows: Row[] = [
   },
 ];
 
-export default function Patterns() {
+export default function OLL() {
   const [open, setOpen] = useState(false);
   const [currentVideo, setCurrentVideo] = useState<string | null>(null);
 
@@ -219,7 +219,6 @@ const Algorithm = ({ algorithm }: { algorithm: string[] }) => {
 const Table = styled(TableBase)({
   "td, th": {
     width: "26.67%",
-    textAlign: "left",
 
     "&:nth-child(2)": {
       width: "40%",
