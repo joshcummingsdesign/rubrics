@@ -54,7 +54,7 @@ export const MainMenu: React.FC<Props> = ({ onClose }) => {
       <List>
         {items.map((item, i) => (
           <ListHeaderItem key={item.name} disablePadding>
-            <ListItemButton component={Link} href={item.href}>
+            <ListItemButton component={Link} href={item.href} onClick={onClose}>
               <ListItemText
                 selected={pathname === item.href}
                 primary={item.name}

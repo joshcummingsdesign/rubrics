@@ -63,8 +63,8 @@ export default function CFOP() {
     <>
       <h1>CFOP</h1>
       <p>
-        CFOP (Cross, F2L, OLL, PLL) is a method for solving the Rubik's Cube in
-        four steps.
+        CFOP (Cross, F2L, OLL, PLL) is a method for solving the Rubik&apos;s
+        Cube in four steps.
       </p>
       <Table>
         <TableHead>

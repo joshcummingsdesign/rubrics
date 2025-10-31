@@ -27,24 +27,31 @@ export const Sidebar: React.FC<Props> = ({
 }) => {
   const theme = useTheme();
   const isDesktop = useMediaQuery(theme.breakpoints.up("md"));
-  const timeoutRef = useRef<NodeJS.Timeout>(null);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const [isClosable, setIsClosable] = useState(false);
 
-  // Use timeout to allow for click away listener
   useEffect(() => {
+    // Clear any running timeouts first
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+
     if (!isDesktop && open) {
+      // Wait a bit before allowing close
       timeoutRef.current = setTimeout(() => {
         setIsClosable(true);
       }, 100);
     } else {
-      setIsClosable(false);
-      timeoutRef.current && clearTimeout(timeoutRef.current);
+      // Defer setState to avoid synchronous state change
+      Promise.resolve().then(() => setIsClosable(false));
     }
 
     return () => {
-      timeoutRef.current && clearTimeout(timeoutRef.current);
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
     };
-  }, [isDesktop, open, timeoutRef]);
+  }, [isDesktop, open]);
 
   return (
     <ClickAwayListener

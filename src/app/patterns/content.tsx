@@ -58,7 +58,7 @@ export default function Patterns() {
   return (
     <>
       <h1>Patterns</h1>
-      <p>Common Rubik's Cube moves and patterns.</p>
+      <p>Common Rubik&apos;s Cube moves and patterns.</p>
       <Table>
         <TableHead>
           <TableRow>
@@ -76,8 +76,8 @@ export default function Patterns() {
                 <a href={row.video} onClick={handleClick}>
                   <Image
                     src={row.image}
-                    height={480}
-                    width={640}
+                    width={168}
+                    height={126}
                     alt={row.name}
                   />
                 </a>

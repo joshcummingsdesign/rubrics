@@ -161,7 +161,7 @@ const TableComponent = ({
           </TableCell>
           <TableCell>
             <a href={row.video} onClick={handleClick}>
-              <Image src={row.image} height={480} width={640} alt={row.name} />
+              <Image src={row.image} width={168} height={126} alt={row.name} />
             </a>
           </TableCell>
         </TableRow>
