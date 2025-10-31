@@ -4,9 +4,9 @@ import Content from "./content";
 export const metadata: Metadata = {
   title: "CFOP — Rubrics",
   description:
-    "The CFOP method (Cross, F2L, OLL, PLL) for solving the Rubik's Cube.",
+    "CFOP (Cross, F2L, OLL, PLL) is a method for solving the Rubik's Cube in four steps.",
 };
 
-export default function CFOP() {
+export default function Page() {
   return <Content />;
 }

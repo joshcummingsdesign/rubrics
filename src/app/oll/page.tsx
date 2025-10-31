@@ -3,9 +3,9 @@ import Content from "./content";
 
 export const metadata: Metadata = {
   title: "OLL (2-Look) — Rubrics",
-  description: "2-Look OLL algorithms.",
+  description: `Solving the orientation of the last layer (OLL) on a Rubik's Cube in two "looks" or steps.`,
 };
 
-export default function OLL() {
+export default function Page() {
   return <Content />;
 }

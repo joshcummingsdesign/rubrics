@@ -6,6 +6,6 @@ export const metadata: Metadata = {
   description: "Competitions I've participated in.",
 };
 
-export default function Competitions() {
+export default function Page() {
   return <Content />;
 }

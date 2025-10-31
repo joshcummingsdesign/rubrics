@@ -1,7 +1,7 @@
 "use client";
+import { useState } from "react";
+import Image from "next/image";
 import {
-  IconButton,
-  Modal,
   styled,
   Table as TableBase,
   TableBody,
@@ -9,11 +9,16 @@ import {
   TableHead,
   TableRow,
 } from "@mui/material";
-import { Close } from "@mui/icons-material";
-import Image from "next/image";
-import { useState } from "react";
+import { VideoModal } from "@/components/Modals/VideoModal";
 
-const topRows = [
+interface Row {
+  name: string;
+  solution: string;
+  image: string;
+  video: string;
+}
+
+const topLayerRows: Row[] = [
   {
     name: "Pair",
     solution: "Insert / Sledgehammer",
@@ -70,7 +75,7 @@ const topRows = [
   },
 ];
 
-const bottomRows = [
+const bottomLayerRows = [
   {
     name: "Corner Solved",
     solution: "U Away from Top Color, Sledgehammer",
@@ -79,7 +84,7 @@ const bottomRows = [
   },
 ];
 
-export default function F2L() {
+export default function Content() {
   const [open, setOpen] = useState(false);
   const [currentVideo, setCurrentVideo] = useState<string | null>(null);
 
@@ -97,28 +102,14 @@ export default function F2L() {
   return (
     <>
       <h1>F2L</h1>
-      <p>Useful cases for solving F2L (First Two Layers).</p>
+      <p>
+        Common Rubik&apos;s Cube cases for solving the first two layers (F2L).
+      </p>
       <h2>Top Layer</h2>
-      <TableComponent rows={topRows} handleClick={handleClick} />
+      <TableComponent rows={topLayerRows} handleClick={handleClick} />
       <h2>Bottom Layer</h2>
-      <TableComponent rows={bottomRows} handleClick={handleClick} />
-      <Modal open={open} onClose={handleClose}>
-        <ModalContent>
-          <CloseButton onClick={handleClose}>
-            <Close />
-          </CloseButton>
-          {currentVideo && (
-            <video
-              src={currentVideo}
-              width={600}
-              height={450}
-              controls
-              playsInline
-              autoPlay
-            />
-          )}
-        </ModalContent>
-      </Modal>
+      <TableComponent rows={bottomLayerRows} handleClick={handleClick} />
+      <VideoModal src={currentVideo} open={open} onClose={handleClose} />
     </>
   );
 }
@@ -127,7 +118,7 @@ const TableComponent = ({
   rows,
   handleClick,
 }: {
-  rows: typeof topRows;
+  rows: Row[];
   handleClick: (e: React.MouseEvent<HTMLAnchorElement>) => void;
 }) => (
   <Table>
@@ -167,22 +158,3 @@ const Table = styled(TableBase)({
     },
   },
 });
-
-const ModalContent = styled("div")({
-  padding: "50px 20px 20px",
-  maxWidth: "640px",
-  margin: "0 auto",
-
-  video: {
-    display: "block",
-  },
-});
-
-const CloseButton = styled(IconButton)(({ theme }) => ({
-  position: "absolute",
-  transform: "scale(1.5)",
-  zIndex: 1,
-  top: "6px",
-  right: "12px",
-  color: theme.palette.brand.white,
-}));

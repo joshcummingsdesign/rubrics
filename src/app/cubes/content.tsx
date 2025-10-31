@@ -38,7 +38,7 @@ const rows: Row[] = [
   },
 ];
 
-export default function Cubes() {
+export default function Content() {
   return (
     <>
       <h1>Cubes</h1>

@@ -18,7 +18,7 @@ const rows = [
   },
 ];
 
-export default function Competitions() {
+export default function Content() {
   return (
     <>
       <h1>Competitions</h1>

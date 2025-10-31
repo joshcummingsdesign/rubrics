@@ -13,7 +13,7 @@ const misc = [
   { name: "Competitions", href: "/competitions" },
 ];
 
-export default function Home() {
+export default function Page() {
   return (
     <>
       <h1>Rubrics</h1>

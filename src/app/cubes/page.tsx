@@ -6,6 +6,6 @@ export const metadata: Metadata = {
   description: "The cubes I am currently solving with.",
 };
 
-export default function Cubes() {
+export default function Page() {
   return <Content />;
 }

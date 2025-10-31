@@ -1,0 +1,36 @@
+<svg width="126" height="126" viewBox="0 0 126 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3151_8)">
+<rect x="9.5" y="9.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
+<rect x="45.5" y="9.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
+<rect x="81.5" y="9.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
+<rect x="81.5" y="45.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
+<rect x="45.5" y="45.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
+<rect x="9.5" y="45.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
+<rect x="9.5" y="81.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
+<rect x="45.5" y="81.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
+<rect x="81.5" y="81.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
+<rect x="9.5" y="0.5" width="35" height="8" fill="#F19E39" stroke="black"/>
+<rect x="45.5" y="0.5" width="35" height="8" fill="#EA3423" stroke="black"/>
+<rect x="81.5" y="0.5" width="35" height="8" fill="#F19E39" stroke="black"/>
+<rect x="81.5" y="117.5" width="35" height="8" fill="#EA3423" stroke="black"/>
+<rect x="45.5" y="117.5" width="35" height="8" fill="#F19E39" stroke="black"/>
+<rect x="9.5" y="117.5" width="35" height="8" fill="#EA3423" stroke="black"/>
+<rect x="0.5" y="116.5" width="35" height="8" transform="rotate(-90 0.5 116.5)" fill="#3663F6" stroke="black"/>
+<rect x="0.5" y="80.5" width="35" height="8" transform="rotate(-90 0.5 80.5)" fill="#75FB4C" stroke="black"/>
+<rect x="0.5" y="44.5" width="35" height="8" transform="rotate(-90 0.5 44.5)" fill="#3663F6" stroke="black"/>
+<rect x="117.5" y="44.5" width="35" height="8" transform="rotate(-90 117.5 44.5)" fill="#75FB4C" stroke="black"/>
+<rect x="117.5" y="80.5" width="35" height="8" transform="rotate(-90 117.5 80.5)" fill="#3663F6" stroke="black"/>
+<rect x="117.5" y="116.5" width="35" height="8" transform="rotate(-90 117.5 116.5)" fill="#75FB4C" stroke="black"/>
+<line x1="63" y1="90" x2="63" y2="36" stroke="black" stroke-width="4"/>
+<path d="M68.1963 37H57.8037L63 27.999L68.1963 37Z" fill="black" stroke="black"/>
+<path d="M57.8037 89L68.1963 89L63 98.001L57.8037 89Z" fill="black" stroke="black"/>
+<line x1="36" y1="63" x2="90" y2="63" stroke="black" stroke-width="4"/>
+<path d="M89 68.1963L89 57.8037L98.001 63L89 68.1963Z" fill="black" stroke="black"/>
+<path d="M37 57.8037L37 68.1963L27.999 63L37 57.8037Z" fill="black" stroke="black"/>
+</g>
+<defs>
+<clipPath id="clip0_3151_8">
+<rect width="126" height="126" fill="white"/>
+</clipPath>
+</defs>
+</svg>

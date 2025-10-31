@@ -3,9 +3,9 @@ import Content from "./content";
 
 export const metadata: Metadata = {
   title: "Patterns — Rubrics",
-  description: "Common Rubik's Cube moves and patterns.",
+  description: "Common Rubik's Cube patterns and triggers.",
 };
 
-export default function Patterns() {
+export default function Page() {
   return <Content />;
 }

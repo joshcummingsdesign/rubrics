@@ -7,8 +7,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-export const MAIN_WIDTH = 600;
-export const MAIN_WIDTH_LG = 800;
+export const MAIN_WIDTH = 700;
 
 export const Main: React.FC<Props> = ({ children }) => (
   <Wrapper>

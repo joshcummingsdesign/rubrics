@@ -1,7 +1,7 @@
 "use client";
+import { useState } from "react";
+import Image from "next/image";
 import {
-  IconButton,
-  Modal,
   styled,
   Table as TableBase,
   TableBody,
@@ -9,11 +9,16 @@ import {
   TableHead,
   TableRow,
 } from "@mui/material";
-import { Close } from "@mui/icons-material";
-import Image from "next/image";
-import { useState } from "react";
+import { VideoModal } from "@/components/Modals/VideoModal";
 
-const rows = [
+interface Row {
+  name: string;
+  notation: string;
+  image: string;
+  video: string;
+}
+
+const rows: Row[] = [
   {
     name: "Sexy Move",
     notation: "R U R' U'",
@@ -40,7 +45,7 @@ const rows = [
   },
 ];
 
-export default function Patterns() {
+export default function Content() {
   const [open, setOpen] = useState(false);
   const [currentVideo, setCurrentVideo] = useState<string | null>(null);
 
@@ -58,7 +63,7 @@ export default function Patterns() {
   return (
     <>
       <h1>Patterns</h1>
-      <p>Common Rubik&apos;s Cube moves and patterns.</p>
+      <p>Common Rubik&apos;s Cube patterns and triggers.</p>
       <Table>
         <TableHead>
           <TableRow>
@@ -76,8 +81,8 @@ export default function Patterns() {
                 <a href={row.video} onClick={handleClick}>
                   <Image
                     src={row.image}
-                    width={168}
-                    height={126}
+                    width={201}
+                    height={151}
                     alt={row.name}
                   />
                 </a>
@@ -86,23 +91,7 @@ export default function Patterns() {
           ))}
         </TableBody>
       </Table>
-      <Modal open={open} onClose={handleClose}>
-        <ModalContent>
-          <CloseButton onClick={handleClose}>
-            <Close />
-          </CloseButton>
-          {currentVideo && (
-            <video
-              src={currentVideo}
-              width={600}
-              height={450}
-              controls
-              playsInline
-              autoPlay
-            />
-          )}
-        </ModalContent>
-      </Modal>
+      <VideoModal src={currentVideo} open={open} onClose={handleClose} />
     </>
   );
 }
@@ -112,22 +101,3 @@ const Table = styled(TableBase)({
     width: "33.33%",
   },
 });
-
-const ModalContent = styled("div")({
-  padding: "50px 20px 20px",
-  maxWidth: "640px",
-  margin: "0 auto",
-
-  video: {
-    display: "block",
-  },
-});
-
-const CloseButton = styled(IconButton)(({ theme }) => ({
-  position: "absolute",
-  transform: "scale(1.5)",
-  zIndex: 1,
-  top: "6px",
-  right: "12px",
-  color: theme.palette.brand.white,
-}));
