@@ -82,6 +82,18 @@ const bottomLayerRows = [
     image: "/images/f2l-corner-solved.png",
     video: "/videos/f2l-corner-solved.mp4",
   },
+  {
+    name: "Corner Opposite",
+    solution: "Match Edge, Take Out Corner",
+    image: "/images/f2l-corner-opposite.png",
+    video: "/videos/f2l-corner-opposite.mp4",
+  },
+  {
+    name: "Corner Same",
+    solution: "U Towards White, Sledgehammer",
+    image: "/images/f2l-corner-same.png",
+    video: "/videos/f2l-corner-same.mp4",
+  },
 ];
 
 export default function Content() {
@@ -103,7 +115,8 @@ export default function Content() {
     <>
       <h1>F2L</h1>
       <p>
-        Common Rubik&apos;s Cube cases for solving the first two layers (F2L).
+        Common cases for solving the first two layers (F2L) on a Rubik&apos;s
+        Cube.
       </p>
       <h2>Top Layer</h2>
       <TableComponent rows={topLayerRows} handleClick={handleClick} />

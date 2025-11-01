@@ -43,6 +43,12 @@ const rows: Row[] = [
     image: "/images/sledgehammer.png",
     video: "/videos/sledgehammer.mp4",
   },
+  {
+    name: "Hedgeslammer",
+    algorithm: "F R' F' R",
+    image: "/images/hedgeslammer.png",
+    video: "/videos/hedgeslammer.mp4",
+  },
 ];
 
 export default function Content() {
