@@ -33,7 +33,6 @@ const VideoContainer = styled("div")({
   width: "100%",
   paddingBottom: "75%",
   height: 0,
-  background: "red",
 
   video: {
     display: "block",
