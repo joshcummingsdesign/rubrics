@@ -18,23 +18,23 @@ interface Row {
 
 const rows: Row[] = [
   {
-    brand: "QiYi",
-    name: "Valk 3 Power M",
-    year: "2018",
-    link: "https://www.thecubicle.com/products/valk-3-power-m",
-    main: true,
-  },
-  {
     brand: "MoYu",
     name: "RS3 M (UV Coated)",
     year: "2020",
     link: "https://www.thecubicle.com/products/moyu-rs3-m-2020-3x3-uv-coated",
+    main: true,
+  },
+  {
+    brand: "QiYi",
+    name: "Valk 3 Power M",
+    year: "2017",
+    link: "https://www.thecubicle.com/products/valk-3-power-m",
   },
   {
     brand: "QiYi",
     name: "Valk 3",
-    year: "2018",
-    link: "https://www.thecubicle.com/products/valk-3",
+    year: "2016",
+    link: "https://www.thecubicle.com/products/valk-3?variant=13215305531465",
   },
 ];
 
