@@ -1,36 +1,41 @@
 <svg width="126" height="126" viewBox="0 0 126 126" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_3151_8)">
-<rect x="9.5" y="9.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
-<rect x="45.5" y="9.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
-<rect x="81.5" y="9.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
-<rect x="81.5" y="45.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
-<rect x="45.5" y="45.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
-<rect x="9.5" y="45.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
-<rect x="9.5" y="81.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
-<rect x="45.5" y="81.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
-<rect x="81.5" y="81.5" width="35" height="35" fill="#FFFF54" stroke="black"/>
-<rect x="9.5" y="0.5" width="35" height="8" fill="#75FB4C" stroke="black"/>
-<rect x="45.5" y="0.5" width="35" height="8" fill="#EA3423" stroke="black"/>
-<rect x="81.5" y="0.5" width="35" height="8" fill="#75FB4C" stroke="black"/>
-<rect x="81.5" y="117.5" width="35" height="8" fill="#3663F6" stroke="black"/>
-<rect x="45.5" y="117.5" width="35" height="8" fill="#F19E39" stroke="black"/>
-<rect x="9.5" y="117.5" width="35" height="8" fill="#3663F6" stroke="black"/>
-<rect x="0.5" y="116.5" width="35" height="8" transform="rotate(-90 0.5 116.5)" fill="#F19E39" stroke="black"/>
-<rect x="0.5" y="80.5" width="35" height="8" transform="rotate(-90 0.5 80.5)" fill="#3663F6" stroke="black"/>
-<rect x="0.5" y="44.5" width="35" height="8" transform="rotate(-90 0.5 44.5)" fill="#F19E39" stroke="black"/>
-<rect x="117.5" y="44.5" width="35" height="8" transform="rotate(-90 117.5 44.5)" fill="#EA3423" stroke="black"/>
-<rect x="117.5" y="80.5" width="35" height="8" transform="rotate(-90 117.5 80.5)" fill="#75FB4C" stroke="black"/>
-<rect x="117.5" y="116.5" width="35" height="8" transform="rotate(-90 117.5 116.5)" fill="#EA3423" stroke="black"/>
-<line x1="58.3137" y1="93.3137" x2="34.3137" y2="69.3138" stroke="black" stroke-width="4"/>
-<path d="M38.6951 66.3465L31.3465 73.6952L28.6562 63.6562L38.6951 66.3465Z" fill="black" stroke="black"/>
-<path d="M53.1038 95.4525L60.4525 88.1038L63.1428 98.1428L53.1038 95.4525Z" fill="black" stroke="black"/>
-<line x1="93.3137" y1="56.3137" x2="70.3137" y2="33.3137" stroke="black" stroke-width="4"/>
-<path d="M74.6951 30.3465L67.3465 37.6952L64.6562 27.6562L74.6951 30.3465Z" fill="black" stroke="black"/>
-<path d="M89.1038 59.4525L96.4525 52.1038L99.1428 62.1428L89.1038 59.4525Z" fill="black" stroke="black"/>
+<g clip-path="url(#clip0_3231_3219)">
+<mask id="mask0_3231_3219" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="126" height="126">
+<path d="M0 5.50763e-06L5.50764e-06 126L126 126L126 0L0 5.50763e-06Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_3231_3219)">
+<path d="M9.5 81.5L9.50001 116.5L44.5 116.5L44.5 81.5L9.5 81.5Z" fill="#FFFF54" stroke="black"/>
+<path d="M9.5 45.5L9.50001 80.5L44.5 80.5L44.5 45.5L9.5 45.5Z" fill="#FFFF54" stroke="black"/>
+<path d="M9.5 9.50001L9.50001 44.5L44.5 44.5L44.5 9.5L9.5 9.50001Z" fill="#FFFF54" stroke="black"/>
+<path d="M45.5 9.50001L45.5 44.5L80.5 44.5L80.5 9.5L45.5 9.50001Z" fill="#FFFF54" stroke="black"/>
+<path d="M45.5 45.5L45.5 80.5L80.5 80.5L80.5 45.5L45.5 45.5Z" fill="#FFFF54" stroke="black"/>
+<path d="M45.5 81.5L45.5 116.5L80.5 116.5L80.5 81.5L45.5 81.5Z" fill="#FFFF54" stroke="black"/>
+<path d="M81.5 81.5L81.5 116.5L116.5 116.5L116.5 81.5L81.5 81.5Z" fill="#FFFF54" stroke="black"/>
+<path d="M81.5 45.5L81.5 80.5L116.5 80.5L116.5 45.5L81.5 45.5Z" fill="#FFFF54" stroke="black"/>
+<path d="M81.5 9.50001L81.5 44.5L116.5 44.5L116.5 9.5L81.5 9.50001Z" fill="#FFFF54" stroke="black"/>
+<path d="M0.500004 81.5L0.500006 116.5L8.50001 116.5L8.5 81.5L0.500004 81.5Z" fill="#75FB4C" stroke="black"/>
+<path d="M0.500004 45.5L0.500006 80.5L8.50001 80.5L8.5 45.5L0.500004 45.5Z" fill="#EA3423" stroke="black"/>
+<path d="M0.500004 9.50001L0.500006 44.5L8.50001 44.5L8.5 9.50001L0.500004 9.50001Z" fill="#75FB4C" stroke="black"/>
+<path d="M117.5 9.50001L117.5 44.5L125.5 44.5L125.5 9.50001L117.5 9.50001Z" fill="#3663F6" stroke="black"/>
+<path d="M117.5 45.5L117.5 80.5L125.5 80.5L125.5 45.5L117.5 45.5Z" fill="#F19E39" stroke="black"/>
+<path d="M117.5 81.5L117.5 116.5L125.5 116.5L125.5 81.5L117.5 81.5Z" fill="#3663F6" stroke="black"/>
+<path d="M81.5 125.5L116.5 125.5L116.5 117.5L81.5 117.5L81.5 125.5Z" fill="#F19E39" stroke="black"/>
+<path d="M45.5 125.5L80.5 125.5L80.5 117.5L45.5 117.5L45.5 125.5Z" fill="#3663F6" stroke="black"/>
+<path d="M9.50001 125.5L44.5 125.5L44.5 117.5L9.50001 117.5L9.50001 125.5Z" fill="#F19E39" stroke="black"/>
+<path d="M9.50001 8.50001L44.5 8.50001L44.5 0.500006L9.50001 0.500007L9.50001 8.50001Z" fill="#EA3423" stroke="black"/>
+<path d="M45.5 8.50001L80.5 8.50001L80.5 0.500006L45.5 0.500007L45.5 8.50001Z" fill="#75FB4C" stroke="black"/>
+<path d="M81.5 8.50001L116.5 8.50001L116.5 0.500006L81.5 0.500007L81.5 8.50001Z" fill="#EA3423" stroke="black"/>
+<path d="M93.3139 67.6863L69.314 91.6863" stroke="black" stroke-width="4"/>
+<path d="M66.3466 87.3049L73.6953 94.6535L63.6563 97.3438L66.3466 87.3049Z" fill="black" stroke="black"/>
+<path d="M95.4527 72.8962L88.104 65.5475L98.143 62.8572L95.4527 72.8962Z" fill="black" stroke="black"/>
+<path d="M56.3135 32.6863L33.3135 55.6863" stroke="black" stroke-width="4"/>
+<path d="M30.3466 51.3049L37.6953 58.6535L27.6563 61.3438L30.3466 51.3049Z" fill="black" stroke="black"/>
+<path d="M59.4527 36.8962L52.104 29.5475L62.143 26.8572L59.4527 36.8962Z" fill="black" stroke="black"/>
+</g>
 </g>
 <defs>
-<clipPath id="clip0_3151_8">
-<rect width="126" height="126" fill="white"/>
+<clipPath id="clip0_3231_3219">
+<rect width="126" height="126" fill="white" transform="translate(5.50764e-06 126) rotate(-90)"/>
 </clipPath>
 </defs>
 </svg>

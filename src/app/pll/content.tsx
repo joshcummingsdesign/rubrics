@@ -69,7 +69,7 @@ const secondRows: Row[] = [
   },
   {
     name: "Z Perm",
-    algorithm: ["(M2 U') (M2 U') M' U2 M2 U2 M'"],
+    algorithm: ["(M' U') (M2 U' M2 U') (M' U2 M2)"],
     notes: ["Trigger: No solved sides, Edges go adjacent"],
     image: "/images/pll-z-perm.svg",
     video: "https://www.youtube.com/embed/CJeICPGe6Ew?si=drBUv2JZBfJ4nVdj",
