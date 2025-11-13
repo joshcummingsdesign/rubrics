@@ -31,7 +31,7 @@ const rows: Row[] = [
     description:
       "Solve the first two layers (F2L) by creating pairs and inserting them into the back slots for better visibility.",
     image: "/images/sexy-move.png",
-    ytLink: "https://www.youtube.com/embed/BtDLfh0XZkE?si=tsIwMYMblpGTrxs7",
+    ytLink: "https://www.youtube.com/embed/14USrNHmNJA?si=_eo_gDm06oHxhAzE",
   },
   {
     name: "OLL",
