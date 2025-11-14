@@ -90,7 +90,7 @@ const bottomLayerRows = [
   },
   {
     name: "Corner Same",
-    solution: "U Towards White, Sledgehammer",
+    solution: "U Towards White, Sexy Move / Sledgehammer",
     image: "/images/f2l-corner-same.png",
     video: "/videos/f2l-corner-same.mp4",
   },
